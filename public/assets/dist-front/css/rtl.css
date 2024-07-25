@@ -1,0 +1,109 @@
+/* font css puplic */
+@font-face {
+    font-family: 'NotoKufiArabic';
+    src: url('../fonts/arabic/NotoKufiArabic-Black.ttf') format('woff2'),
+        url('../fonts/arabic/NotoKufiArabic-Black.ttf') format('woff');
+    font-weight: 300;
+    font-style: normal;
+}
+
+/* font css puplic */
+* {
+    font-family: "NotoKufiArabic", sans-serif;
+}
+
+body {
+    direction: rtl;
+    font-family: "NotoKufiArabic", sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+.sec-title h2{
+    font-family: "NotoKufiArabic", sans-serif ;
+}
+
+p, .text{
+    font-family: "NotoKufiArabic", sans-serif ;
+}
+
+.sec-title .sub-title{
+    font-family: "NotoKufiArabic", sans-serif ;
+}
+
+.navigation>li {
+    float: right !important;
+    margin-right: 30px !important;
+}
+
+.navigation>li>ul>li>a {
+    text-align: right !important;
+}
+
+.header-top .useful-links li a,
+.header-top .useful-links li a {
+    direction: rtl;
+    text-align: right;
+}
+
+.service-block-new-1 .content-box .read-more i {
+    margin-right: 10px;
+    transform: rotate(180deg) !important;
+}
+
+.banner-carousel .owl-nav{
+    right: 85%;
+}
+
+/* .auto-container {
+    direction: rtl;
+} */
+
+.dir_spicial{
+    direction: ltr !important;
+}
+
+.contact-info-block .inner {
+    padding-right: 110px !important;
+    padding-left: 0 !important;
+}
+
+@media screen and (max-width: 575px) and (min-width: 230px){
+    .contact-info-block .inner{
+        padding-left: 110px !important;
+        padding-right: 0px !important;
+    }
+}
+
+.contact-info-block .inner:before {
+    left: 20px;
+    right: auto;
+}
+
+.contact-info-block .inner .icon {
+    right: 0;
+    left: auto;
+}
+
+.testimonial-block-home5-v2 .thumb{
+    left: 75%;
+}
+
+.testimonial-block-home5-v2 .rating,
+.testimonial-block-home5-v2 .text,
+.testimonial-block-home5-v2 .info-box{
+    text-align: right;
+}
+
+.testimonial-block-home5-v2 .info-box{
+    padding: 20px 10px 0;
+    margin-right: 55px;
+}
+
+.news-block .content-box .read-more i{
+    transform: rotate(180deg) !important;   
+}
